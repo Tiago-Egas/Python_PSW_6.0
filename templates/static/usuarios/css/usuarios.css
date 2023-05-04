@@ -1,6 +1,5 @@
 .bg-inscricao{
-
-    height: 100vh;
+height: 100vh;
     background-color: var(--dark-color);
     padding-left: 1%;
 }
@@ -35,7 +34,6 @@
 }
 
 .btn-principal{
-    
     background-color: transparent;
     border: 1px solid var(--contrast-color);
     color: white;
@@ -45,7 +43,6 @@
 }
 
 .logo-evento{
-
     position: fixed;
     bottom: 20px;
 
@@ -55,11 +52,18 @@ hr{
     border-color: #7E7B7C;
 }
 
+h3{
+    color: white
+}
+
+
+body{
+    color: white !important;
+}
+
 :root{
-     
     --main-color: #201F1F;
     --dark-color: #1C1A1A;
     --contrast-color: #BE375F;
     --differential-color: #ED8554;
-
 }
