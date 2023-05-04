@@ -10,4 +10,4 @@ from django.contrib.auth.decorators import login_required
 @login_required # type: ignore
 def novo_evento(request):
     if request.method == "GET":
-        return render(request, 'novo_evento.html')
+        return render(request, "novo_evento.html")
