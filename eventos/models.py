@@ -17,4 +17,4 @@ class Evento(models.Model):
     cor_fundo = models.CharField(max_length=7)
 
     def __str__(self) -> str:
-        return self.nome
+        return self.nome # type: ignore
