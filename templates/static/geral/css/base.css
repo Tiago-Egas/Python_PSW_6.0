@@ -1,10 +1,10 @@
-body{
-    color: white !important;
+body {
+  color: white !important;
 }
 
-:root{
-    --main-color: #201F1F;
-    --dark-color: #1C1A1A;
-    --contrast-color: #BE375F;
-    --differential-color: #ED8554;
+:root {
+  --main-color: #201f1f;
+  --dark-color: #1c1a1a;
+  --contrast-color: #be375f;
+  --differential-color: #ed8554;
 }

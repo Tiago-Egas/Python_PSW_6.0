@@ -1,21 +1,21 @@
-.navbar-color{
-    background-color: #201F1F !important;
+.navbar-color {
+  background-color: #201f1f !important;
 }
 
-body{
-    background-color: #1C1A1A;
+body {
+  background-color: #1c1a1a;
 }
 
-.div{
-    min-height: 60vh
+.div {
+  min-height: 60vh;
 }
 
-.col-md-paleta{
-    z-index: 99999
+.col-md-paleta {
+  z-index: 99999;
 }
 
-.fundo-pagina{
-    background-image: url('/static/evento/img/fundo_pagina.png');
-    height: 300px;
-    background-size: cover;
+.fundo-pagina {
+  background-image: url("/static/evento/img/fundo_pagina.png");
+  height: 300px;
+  background-size: cover;
 }
