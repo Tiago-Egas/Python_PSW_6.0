@@ -5,19 +5,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img width="100%" src="{{ evento.logo.url }}">
+                <img width="100%" alt="logo-evento" src="{{ evento.logo.url }}">
                 <br>
                 <br>
                 <h3>{{ evento.nome }}</h3>
             </div>
             <hr>
             <div class="col-md-6">
-                <h5>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    <br>
-                    <p>{{ evento.data_inicio }} a {{ evento.data_termino }}</p>
-                    <a style="text-decoration: none;" class="btn-principal" href="#">QUERO PARTICIPAR</a>
-                </div>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</h5>
+                <br>
+                <p>{{ evento.data_inicio }} a {{ evento.data_termino }}</p>
+                <a style="text-decoration: none;" class="btn-principal" href="#">QUERO PARTICIPAR</a>
             </div>
         </div>
-    {% endblock 'conteudo' %}
+    </div>
+{% endblock 'conteudo' %}

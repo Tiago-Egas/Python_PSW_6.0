@@ -9,7 +9,7 @@
         <br>
         <div class="row">
             <div class="col-md">
-                <form action="{% url "gerenciar_evento" %}" method="GET">
+                <form action="{% url "gerenciar_evento" %}" method="get">
                     <label>Título:</label>
                     <input type="text" placeholder="Título..." class="form-control" name="nome">
                 </div>
@@ -39,7 +39,10 @@
                     <td>{{ evento.descricao }}</td>
                     <td>{{ evento.data_inicio }}</td>
                     <td>{{ evento.data_termino }}</td>
-                    <td>Link</td>
+                    <td>
+                        <a target="_self"
+                           href="localhost:8000/eventos/inscrever_evento/{{ evento.id }}/">Link de inscrição</a>
+                    </td>
                 </tr>
             {% endfor %}
         </table>
