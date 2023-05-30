@@ -1,7 +1,7 @@
 {% extends "bases/base_evento.html" %}
 {% load static %}
 {% block 'importacoes' %}
-    <link href="{% static 'evento/css/gerenciar_evento.css' %}"
+    <link href="{% static '/evento/css/gerenciar_evento.css' %}"
           rel="stylesheet">
 {% endblock 'importacoes' %}
 {% block 'conteudo' %}
@@ -40,8 +40,7 @@
                     <td>{{ evento.data_inicio }}</td>
                     <td>{{ evento.data_termino }}</td>
                     <td>
-                        <a target="_self"
-                           href="localhost:8000/eventos/inscrever_evento/{{ evento.id }}/">Link de inscrição</a>
+                        <a href="{% url 'inscrever_evento' evento.id %}">Link de inscrição</a>
                     </td>
                 </tr>
             {% endfor %}
